@@ -1,18 +1,26 @@
 {
   "name": "synthetics",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "NewRelic Synthetics in an automated pipeline",
   "author": "Mario Álvarez <ahoy@m4grio.me>",
   "license": "MIT",
+  "repository": "github:m4grio/synthetics.git",
   "main": "lib/synthetics.js",
   "bin": {
     "synthetics": "lib/synthetics.js"
   },
   "files": [
-    "lib"
+    "lib",
+    "synthetics.1"
   ],
+  "scripts": {
+    "docs": "./node_modules/.bin/marked-man README.md --version \"$npm_package_name@$npm_package_version\" > $npm_package_name.1"
+  },
   "dependencies": {
     "commander": "^2.11.0",
     "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "marked-man": "^0.2.1"
   }
 }

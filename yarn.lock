@@ -198,6 +198,16 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+marked-man@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/marked-man/-/marked-man-0.2.1.tgz#f259271481de3b507263489f5221b7c5acfd2383"
+  dependencies:
+    marked "^0.3.2"
+
+marked@^0.3.2:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+
 mime-db@~1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.30.0.tgz#74c643da2dd9d6a45399963465b26d5ca7d71f01"
