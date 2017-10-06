@@ -1,0 +1,18 @@
+{
+  "name": "synthetics",
+  "version": "0.1.1",
+  "description": "NewRelic Synthetics in an automated pipeline",
+  "author": "Mario Álvarez <ahoy@m4grio.me>",
+  "license": "MIT",
+  "main": "lib/synthetics.js",
+  "bin": {
+    "synthetics": "lib/synthetics.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "commander": "^2.11.0",
+    "request": "^2.83.0"
+  }
+}
