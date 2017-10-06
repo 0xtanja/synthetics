@@ -1,6 +1,6 @@
 {
   "name": "synthetics",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "NewRelic Synthetics in an automated pipeline",
   "author": "Mario Álvarez <ahoy@m4grio.me>",
   "license": "MIT",
