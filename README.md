@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/synthetics.svg)](https://npm.im/synthetics)
+
 # synthetics(1) -- NewRelic Synthetics in an automated pipeline
 
 ## SYNOPSYS
