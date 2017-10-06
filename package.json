@@ -4,6 +4,7 @@
   "description": "NewRelic Synthetics in an automated pipeline",
   "author": "Mario Álvarez <ahoy@m4grio.me>",
   "license": "MIT",
+  "repository": "github:m4grio/synthetics.git",
   "main": "lib/synthetics.js",
   "bin": {
     "synthetics": "lib/synthetics.js"
