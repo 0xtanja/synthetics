@@ -7,6 +7,9 @@
   "repository": "github:m4grio/synthetics.git",
   "main": "lib/synthetics.js",
   "man": "./synthetics.1",
+  "engines": {
+    "node": ">=4.5.0"
+  },
   "bin": {
     "synthetics": "lib/synthetics.js"
   },
