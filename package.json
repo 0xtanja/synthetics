@@ -8,7 +8,7 @@
   "main": "lib/synthetics.js",
   "man": "./synthetics.1",
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=4.6.0"
   },
   "bin": {
     "synthetics": "lib/synthetics.js"
