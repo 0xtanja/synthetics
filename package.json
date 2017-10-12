@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "github:m4grio/synthetics.git",
   "main": "lib/synthetics.js",
-  "man": "./synthetics.1",
+  "man": "synthetics.1",
   "engines": {
     "node": ">=4.6.0"
   },
