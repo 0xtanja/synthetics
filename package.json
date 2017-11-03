@@ -22,9 +22,11 @@
     "docs": "tail -n +2 README.md | marked-man --version \"$npm_package_name@$npm_package_version\" > $npm_package_name.1"
   },
   "dependencies": {
+    "chromedriver": "^2.0",
     "commander": "^2.11.0",
     "dotenv": "^4.0.0",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "selenium-webdriver": "^3.6.0"
   },
   "devDependencies": {
     "marked-man": "^0.2.1",
