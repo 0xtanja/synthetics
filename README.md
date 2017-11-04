@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/synthetics.svg)](https://npm.im/synthetics)
+[![npm](https://img.shields.io/npm/v/synthetics.svg)](https://npm.im/synthetics) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # synthetics(1) -- NewRelic Synthetics in an automated pipeline
 
