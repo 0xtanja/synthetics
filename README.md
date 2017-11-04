@@ -8,6 +8,8 @@
 
 `synthetics deploy`
 
+`synthetics run <file>`
+
 ## INSTALL
 
 `npm install -g synthetics`
