@@ -6,7 +6,10 @@
   "license": "MIT",
   "repository": "github:m4grio/synthetics.git",
   "main": "lib/synthetics.js",
-  "man": "synthetics.1",
+  "man": [
+    "manuals/synthetics.1",
+    "manuals/run.1"
+  ],
   "engines": {
     "node": ">=6.9.0"
   },
@@ -19,7 +22,8 @@
   ],
   "scripts": {
     "standard": "standard",
-    "docs": "tail -n +2 README.md | marked-man --version \"$npm_package_name@$npm_package_version\" > $npm_package_name.1"
+    "docs-main": "tail -n +2 README.md | marked-man --version \"$npm_package_name@$npm_package_version\" > manuals/$npm_package_name.1",
+    "docs-run": "marked-man manuals/RUN.md --version \"$npm_package_name@$npm_package_version\" > manuals/run.1"
   },
   "dependencies": {
     "chromedriver": "^2.0",
