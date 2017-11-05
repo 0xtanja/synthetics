@@ -2,11 +2,11 @@
 
 ## SYNOPSYS
 
-`synthetics run <file> [chrome driver options ...]`
+`synthetics run <scripts...> [chrome driver options ...]`
 
 ## DESCRIPTION
 
-Initialise an instance of Chrome Driver to execute a script on.
+Initialise an instance of Chrome Driver to execute one or multiple scripts on.
 
 ### Return Codes
 
@@ -25,6 +25,10 @@ For a complete list of arguments available, run `chromedriver --help`.
 To run a script in incognito mode:
 
 `synthetics run example.js --incognito`
+
+To run all javascript files in a folder:
+
+`synthethics run *.js`
 
 ## SEE ALSO
 
