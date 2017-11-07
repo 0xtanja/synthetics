@@ -27,7 +27,7 @@
     "docs-run": "marked-man manuals/RUN.md --version \"$npm_package_name@$npm_package_version\" > manuals/run.1"
   },
   "dependencies": {
-    "chromedriver": "^2.0",
+    "chromedriver": "^2.33.2",
     "commander": "^2.11.0",
     "dotenv": "^4.0.0",
     "request": "^2.83.0",
